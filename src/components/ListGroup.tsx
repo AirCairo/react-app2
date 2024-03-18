@@ -1,6 +1,17 @@
 //import { MouseEvent } from "react";
 
 import { useState } from "react";
+import styled from "styled-components";
+
+// From Styliging Components - 4 - CSS-in-JS
+const List = styled.ul`
+  list-style: none;
+  padding: 0;
+`;
+
+const ListItem = styled.li`
+  padding: 5px 0;
+`;
 
 // {items: [], heading: string}
 interface ListGroupProps {
