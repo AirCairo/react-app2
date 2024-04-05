@@ -13,6 +13,7 @@ import produce from "immer";
 import NavBar from "./components/NavBar";
 import Cart from "./components/Cart";
 import ExpandableText from "./components/ExpandableText";
+import Form from "./components/Form";
 
 function App() {
   ///
@@ -164,6 +165,10 @@ function App() {
 
   return (
     <>
+      <div>
+        <Form></Form>
+      </div>
+
       <ExpandableText>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum non
         impedit reprehenderit, cumque minus nostrum velit ratione id culpa
